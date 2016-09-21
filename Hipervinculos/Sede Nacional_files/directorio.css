@@ -1,0 +1,57 @@
+
+main div.main div.tag-category{
+	overflow: hidden;
+}
+main div.main div.tag-category ul.category li, main div.main div.item,main div.main div.blog-featured div.item{
+	display: block;
+	overflow: hidden;
+	padding-bottom: 10px;
+	width: auto;
+}
+main div.main div.blog-featured div.item{
+	border-top: 0;
+}
+main div.main div.tag-category ul.category li a,main div.main div.item a, main div.main div.item-page a{
+	color: #00476A;
+    text-decoration: none;
+}
+main div.main div.tag-category ul.category li:nth-child(1), main div.main div.item{
+	border-bottom: 1px solid #999;
+}
+main div.main div.tag-category ul.category li:nth-child(even){
+	margin-left: 0;
+}
+main div.main div.tag-category ul.category h3{
+	display: none;
+}
+main div.main div.tag-category ul.category li img, main div.main div.item img, main div.main div.item-page img{
+	border: 3px #FFF solid;
+	float: left;
+	margin-right: 10px;
+}
+main div.main div.tag-category ul.category li a.area, main div.main div.item a.area, main div.main div.item-page a.area{
+	background: #004669;
+	border-radius: 5px;
+	box-shadow: inset 0 -.2em rgba(0,0,0,.3);
+	color: #FFF;
+	display: inline-block;
+	margin-top: 2px;
+	padding: 7px 10px;
+	text-decoration: none;
+}
+main div.main div.tag-category ul.category li a.hojavida, main div.main div.item a.hojavida, main div.main div.item-page a.hojavida{
+	border: 1px solid #999;
+	border-radius: 5px;
+	color: #333;
+	display: inline-block;
+	margin-top: 2px;
+	padding: 7px 10px;
+	text-decoration: none;
+}
+main div.main div.tag-category ul.category li a.hojavida:hover, main div.main div.item a.hojavida:hover, main div.main div.item-page a.hojavida:hover{
+	background:#E26C0E;
+	color: #FFF; 
+}
+
+
+/*------Artículo-----*/

@@ -1,0 +1,181 @@
+div.bachillerato a.conoce{
+	background: #974478;
+}
+div.bachillerato div.h2{
+	background: #974478;
+}
+div.bachillerato div.h2 h2{
+ 	background: #e6e6e6 url(./imgMatriculas/h2Bachillerato.png) top right no-repeat;
+}
+div.bachillerato div.matriculas{
+	border-top: 3px #974478 solid;
+}
+div.carreras a.conoce{
+	background: #29bfbe;
+}
+div.carreras div.h2{
+	background: #29bfbe;
+}
+div.carreras div.h2 h2{
+ 	background: #e6e6e6 url(./imgMatriculas/h2Carreras.png) top right no-repeat;
+}
+div.carreras div.matriculas{
+	border-top: 3px #29bfbe solid;
+}
+div.cursos a.conoce{
+	background: #779a08;
+}
+div.cursos div.h2{
+	background: #779a08;
+}
+div.cursos div.h2 h2{
+ 	background: #e6e6e6 url(./imgMatriculas/h2Cursos.png) top right no-repeat;
+}
+div.EU a.conoce{
+	background: #009ED4;
+}
+div.EU div.h2{
+	background: #009ED4;
+}
+div.EU div.h2 h2{
+ 	background: #e6e6e6 url(./imgMatriculas/h2EU.png) top right no-repeat;
+}
+div.contenedor{
+	background: #E6E6E6;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	position: relative;
+	overflow: hidden;
+}
+div.contenedor a.conoce{
+	color: #FFF;
+	bottom: 80px;
+	border-radius: 3px;
+	display: inline-block;
+	font-size: 1.1em;
+	margin-right: 12%;
+	padding: 5px 4%;
+	position: absolute;
+	right: 0;
+	text-decoration: none;
+	text-align: center;
+}
+div.contenedor div.h2{
+ 	color: #666; 
+	margin: 0;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	overflow: hidden;
+}
+div.contenedor div.matriculas{
+	background: #CCC;
+	bottom: 10px;
+	position: absolute;
+	right: 1%;
+	width: 51%;
+}
+div.contenedor div.matriculas a, div.contenedor div.matriculas p{
+	display: block;
+	float: left;
+	padding: 10px 2%;
+	position: static;
+	width: 46%;
+}
+div.contenedor div.matriculas a{
+	background: #0071bd;
+	border-radius: 3px;
+	color: #FFF;
+	margin: 5px 3%;
+	padding: 5px 2%;
+	text-align: center;
+	text-decoration: none;
+	width: 40%;
+}
+div.contenedor div.h2 h2{
+ 	display: inline-block;
+	color: #666;
+	font-size: 1.3em;
+	margin: 0;
+	padding: 0.1em 1em;
+	padding-right: 6em;
+}
+div.contenedor img{
+	float: left;
+	margin-right: 10px;
+}
+div.contenedor p{
+	display: inline-block;
+	margin:0;
+	padding: 0 2%;
+	width: 47%;
+}
+main{
+	padding-top: 0;
+	margin-top: 0;
+}
+main h1{
+	padding: 1em 0;
+	margin: 0;
+	display: block;
+	color: #165777;
+}
+main div.main{
+	background: #FFF;
+	padding-top: 10px;
+}												
+/* RESPONSIVE */
+@media screen and (max-width:1050px){
+div.contenedor img{
+		width: 45%;
+}
+}
+@media screen and (max-width:980px){
+div.contenedor a.conoce{
+	bottom: auto;
+	margin: 10px 0;
+	margin-left: 10px;
+	padding: 5px 1%;
+	position: static;
+	right: auto;
+	text-decoration: none;
+}
+div.contenedor img{
+	margin: 30px 0;
+	margin-right: 10px;
+		width: 45%;
+}
+div.contenedor div.matriculas{
+	bottom: auto;
+	overflow: hidden;
+	position: static;
+	right: auto;
+}
+}
+@media screen and (max-width:680px){
+div.contenedor a.conoce{
+	display: block;
+	float: none;
+	margin: 10px 10%;
+}
+div.contenedor div.matriculas{
+	display: block;
+	width: 100%;
+}
+div.contenedor img{
+	display: block;
+	float: none;
+	margin: 10px auto;
+	width: auto;
+}
+div.contenedor p{
+	width: 100%;
+}
+}
+@media screen and (max-width:480px){
+div.contenedor img{
+	display: block;
+	float: none;
+	margin: 10px auto;
+	width: 100%;
+}
+}

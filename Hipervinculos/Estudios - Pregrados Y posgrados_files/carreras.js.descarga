@@ -1,0 +1,53 @@
+function cargarEventosCarreras(){
+
+	jQuery("div.carreras ul.Administrativas li ul li").click( function() {
+		jQuery("div.carreras ul.Administrativas li ul li").removeClass("mostrarCarreras");
+		jQuery(this).addClass("mostrarCarreras");
+	});
+
+	jQuery("div.carreras ul.Agricolas li ul li").click( function() {
+		jQuery("div.carreras ul.Agricolas li ul li").removeClass("mostrarCarreras");
+		jQuery(this).addClass("mostrarCarreras");
+	});
+
+	jQuery("div.carreras ul.Ingenierias li ul li").click( function() {
+		jQuery("div.carreras ul.Ingenierias li ul li").removeClass("mostrarCarreras");
+		jQuery(this).addClass("mostrarCarreras");
+	});
+
+	jQuery("div.carreras ul.Educacion li ul li").click( function() {
+		jQuery("div.carreras ul.Educacion li ul li").removeClass("mostrarCarreras");
+		jQuery(this).addClass("mostrarCarreras");
+	});
+
+	jQuery("div.carreras ul.Salud li ul li").click( function() {
+		jQuery("div.carreras ul.Salud li ul li").removeClass("mostrarCarreras");
+		jQuery(this).addClass("mostrarCarreras");
+	});
+
+	jQuery("div.carreras ul.Sociales li ul li").click( function() {
+		jQuery("div.carreras ul.Sociales li ul li").removeClass("mostrarCarreras");
+		jQuery(this).addClass("mostrarCarreras");
+	});
+
+	/* Movil */
+	jQuery("div.carreras ul.contenedor li").click( function() {
+		if(jQuery(this).hasClass("mostrarContenedor")){
+			jQuery(this).removeClass("mostrarContenedor");
+		}
+		else{
+		jQuery("div.carreras ul.contenedor li").removeClass("mostrarContenedor");
+		jQuery(this).addClass("mostrarContenedor");
+		}
+	});
+
+	jQuery("div.carreras ul.contenedor li ul li").click( function() {
+		if(jQuery(this).hasClass("mostrarCarrerasMovil")){
+			jQuery(this).removeClass("mostrarCarrerasMovil");
+		}
+		else{
+		jQuery("div.carreras ul.contenedor li ul li").removeClass("mostrarCarrerasMovil");
+		jQuery(this).addClass("mostrarCarrerasMovil");
+	}
+	});
+}
